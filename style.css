@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(177, 172, 172);
+    justify-content: center;
+    text-align: center;
+}
+fieldset{
+    text-align: justify;
+    margin: 50px 200px;
+    background-color: rgb(129, 125, 125);
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.textarea{
+    width: 100%;
+}
+button{
+    border-radius: 50px;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(82, 137, 172);
+    color: whitesmoke;
+    scale: 1.2;
+}

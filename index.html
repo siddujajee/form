@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        
+        <legend><h1 style="border: solid 2px black; background-color: rgb(46, 44, 44); color: rgb(228, 216, 216);">Personal Details</h1></legend>
+        <form action="login.html">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="ex:siddu"  class="textarea"required>
+            <br>
+            <br>
+            <label for="middlename">Middle Name:</label>
+            <br>
+            <input type="text" id="middlename" name="middlename" class="textarea">
+            <br>
+            <br>
+            <label for="lastname">Last Name:</label>
+            <br>
+            <input type="text" id="lastname" name="lastname" placeholder="jajee" class="textarea" required>
+            <br>
+            <br>
+            <label for="name">DOB:</label>
+            <input type="date" id="Date" name="Date" class="nofor" required>
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <br>
+            <input type="email" id="Email" name="Email" class="textarea" placeholder="ex: siddujajee@gmail.com">
+            <br>
+            <br>
+        
+
+       
+
+    </fieldset>
+
+    <fieldset>
+        <legend><h1 style="border: solid 2px black; background-color: rgb(46, 44, 44); color: rgb(228, 216, 216);">Educational Details</h1></legend>
+        <label for="dept">Department</label>
+        <input type="radio" name="dept" id="cse"  required>
+        <label for="department">CSE</label>
+        <input type="radio" name="dept" id="eee"   required>
+        <label for="eee">EEE</label>
+        <input type="radio" name="dept" id="ece"   required>
+        <label for="ece">ECE</label>
+        <input type="radio" name="dept" id="mech" required>
+        <label for="mech">Mech</label>
+        <input type="radio" name="dept" id="civil"  required>
+        <label for="civil">Civil</label>
+        <br>
+        <br>
+        <label for="graduation">Year Of Graduation:</label>
+        <input list="list" name="yog" id="graduation"  required>
+        <datalist id="list">
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+
+        </datalist>
+        <br>
+        <br>
+        <label for="skills">Skills:</label>
+        
+        <input type="checkbox" name="skills" id="html">
+        <label for="html">html</label>
+        <input type="checkbox" name="skills" id="css">
+        <label for="html">CSS</label>
+        <input type="checkbox" name="skills" id="js">
+        <label for="js">JavaScript</label>
+        <input type="checkbox" name="skills" id="java">
+        <label for="java">Java standard edition</label>
+    </fieldset> 
+    <button >Submit</button>
+</form>
+</body>
+</html>
